@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    background-color: #D1CFB8;
+  }
+  a {
+    color:black;
+    text-decoration: none;
+  }
+  h1 {
+    font-size:45px;
+    text-align: center;
+    border-bottom:1px solid gray;
+    margin:0;
+    padding-top:50px;
+    padding-bottom:50px;
+  }
+  ul{
+    border-right:1px solid gray;
+    width:100px;
+    margin:0;
+    padding:20px;
+  }
+  #grid{
+    display:grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #grid ul{
+    padding:30px;
+    list-style-type:none;
+    line-height:150px;
+    text-align: center;
+  }
+  #grid #article{
+    padding:60px;
+  }
+  p{
+      text-align: center;
+  }
+  #article ol{
+    line-height:50px;
+    list-style-type:circle;
+    font-size:20px;
+  }
