@@ -57,7 +57,7 @@ a:hover {
   animation-iteration-count: infinite;
 }
 
-@keyframes rainbowLink {
+@keyframes rainbow {
   0% {
     color: #ff2a2a;
   }
